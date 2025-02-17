@@ -12,8 +12,11 @@ if (paragraaf.length > 1) paragraaf[0].style.textDecoration = "underline";
 
 let count = 0;
 for (let i = 0; i < document.querySelectorAll("special").length; i++) {
-    console.log('nice');
+	console.log("nice");
 	count++;
 }
 
 console.log(count);
+
+
+// test
