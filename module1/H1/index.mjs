@@ -11,7 +11,7 @@ for (let i = 0; i < H1Count.length; i++) {
 	H1.id = id;
 
 	const clickableLink = document.createElement("a");
-	clickableLink.href = `#${H1}`;
+	clickableLink.href = `#h1`;
 	clickableLink.innerText = `Hoofdstuk ${[i + 1]}`;
 	NAV.append(clickableLink);
 
@@ -21,7 +21,7 @@ for (let i = 0; i < H1Count.length; i++) {
 		H2.id = id;
 
 		const clickableLink = document.createElement("a");
-		clickableLink.href = `#${H2}`;
+		clickableLink.href = `#h2`;
 		clickableLink.innerText = `Deel ${i + 1}.${j + 1}`;
 
 		NAV.append(clickableLink);
