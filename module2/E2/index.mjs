@@ -1,11 +1,9 @@
 "use strict";
 
 const receptNaam = document.getElementById("recipeName").value;
-receptNaam;
 const bereidTijd = document.getElementById("prepTime").textContent;
-bereidTijd;
 
-const ingr = document.getElement;
+const ingr = document.getElementById("ingredients");
 document.getElementById("generateCard").addEventListener("click", () => {});
 
 function generate() {
